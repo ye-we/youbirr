@@ -1,0 +1,43 @@
+.intro {
+  height: calc(100vh - 50px);
+  /* background-color: var(--color-secondary); */
+  color: white;
+  position: relative;
+}
+.introSketch {
+  position: absolute;
+  z-index: -1;
+}
+
+.intro-content {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-header {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.intro-text {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.intro-money {
+  color: var(--color-primary);
+}

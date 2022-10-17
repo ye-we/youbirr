@@ -1,0 +1,78 @@
+:root {
+  --color-primary: gold;
+  --color-primary-light: rgb(228, 208, 98);
+  --color-secondary: #f7f7f7;
+  --color-tertiary: #0e4b36;
+  --color-black: black;
+  --color-black-light: #191919;
+  --color-white: white;
+
+  --fontSizes-display-xl: 52px;
+  --fontSizes-display-lg: 40px;
+  --fontSizes-display-md: 28px;
+  --fontSizes-heading-xl: 24px;
+  --fontSizes-heading-lg: 20px;
+  --fontSizes-heading-md: 16px;
+  --fontSizes-heading-sm: 14px;
+  --fontSizes-heading-xs: 12px;
+  --fontSizes-body-lg: 16px;
+  --fontSizes-body-md: 14px;
+  --fontSizes-body-sm: 12px;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-secondary);
+  line-height: 1.6;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  color: black;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  padding: 8px 40px;
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.btn-yellow:hover {
+  color: white;
+  transform: translateY(-3px);
+  background-color: black;
+}
+.btn-yellow:active {
+  transform: translateY(2px);
+}
+
+.btn-light {
+  text-decoration: none;
+  margin: 35px;
+  border-radius: 10px;
+  padding: 5px 40px;
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.btn-light:hover {
+  background-color: var(--color-primary);
+  color: black;
+  transform: translateY(-3px);
+}
+.btn-light:active {
+  transform: translateY(2px);
+}
+.btn-light:focus {
+  outline: white;
+}

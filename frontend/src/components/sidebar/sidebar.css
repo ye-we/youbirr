@@ -1,0 +1,75 @@
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  position: sticky;
+  top: 0;
+}
+.sidebarProfile {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+}
+
+.sidebarActions {
+  flex: 5;
+}
+.sidebarFooter {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+}
+.profileImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+.profileName {
+  font-size: var(--fontSizes-heading-md);
+  margin-bottom: 5px;
+}
+.profileDesc {
+  font-size: var(--fontSizes-body-sm);
+  color: gray;
+}
+
+.sidebarFooter-link {
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.actionsList {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionLink {
+  text-align: left;
+  /* width: 100%; */
+  padding: 15px 0;
+  text-decoration: none;
+  color: #c1c1c1;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+}
+.active {
+  color: #fff;
+}
+.actionLink:hover {
+  color: #fff;
+}
+.sidebarIcon {
+  margin-right: 3px;
+}

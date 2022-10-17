@@ -1,0 +1,17 @@
+.balancePage {
+  display: flex;
+}
+.balanceRight {
+  background-color: rgb(27, 27, 27);
+  flex: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.depositBalance {
+  width: 40%;
+}
+.balanceDisplay {
+  width: 40%;
+}

@@ -1,0 +1,51 @@
+.rightBar {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #dadada;
+  position: sticky;
+  top: 0;
+}
+
+.rightBar-logo {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightBar-ad {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: -30px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 4px 5px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 4px 5px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+.rightBar-ad-header {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.trendingCreator {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0;
+}
+.profileRightbar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.actionListRight {
+  display: flex;
+  flex-direction: column;
+}

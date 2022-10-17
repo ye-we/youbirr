@@ -1,0 +1,21 @@
+.search {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgb(27, 27, 27);
+}
+
+.searchBar {
+  width: 30vw;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+}
+.searchBar:focus {
+  outline: none;
+}
